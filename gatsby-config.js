@@ -4,12 +4,13 @@ module.exports = {
   siteMetadata: {
     title: 'Ghost',
     description: 'The professional publishing platform',
-    siteUrl: 'https://gatsby-casper.netlify.com', // full path to blog - no ending slash
+    siteUrl: 'https://blissful-haibt-4fbe6d.netlify.com', // full path to blog - no ending slash
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
   },
   plugins: [
+    `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-filesystem',
@@ -46,7 +47,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-casper.netlify.com',
+        siteUrl: 'https://blissful-haibt-4fbe6d.netlify.com',
       },
     },
     'gatsby-plugin-emotion',
