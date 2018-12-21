@@ -2,7 +2,7 @@ import CMS, { init } from "netlify-cms"
 
 init({
     config: {
-        media_folder: "static",
+        media_folder: "src/content/img",
         media_library: {
             name: "my_media_lib"
         },
@@ -13,7 +13,7 @@ init({
         collections: [{
             name: "post",
             label: "Post",
-            folder: "content",
+            folder: "src/content",
             create: true,
             fields: [
                 {
