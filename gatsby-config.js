@@ -11,12 +11,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-netlify-cms-paths`,
-      options: {
-        cmsConfig: `src/config.yml`
-      }
-    },
-    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         enableIdentityWidget: true,
