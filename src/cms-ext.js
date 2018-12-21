@@ -3,7 +3,9 @@ import CMS, { init } from "netlify-cms"
 init({
     config: {
         media_folder: "static",
-        media_library: "",
+        media_library: {
+            name: "my_media_lib"
+        },
         backend: {
             name: "git-gateway",
             publish_mode: "editorial_workflow",
@@ -12,7 +14,7 @@ init({
             name: "post",
             label: "Post",
             folder: "content",
-            create: "true",
+            create: true,
             fields: [
                 {
                     label: "Layout",
