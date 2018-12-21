@@ -10,7 +10,12 @@ module.exports = {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
   },
   plugins: [
-    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: 'gatsby-plugin-netlify-cms',
+      options: {
+        modulePath: `${__dirname}/admin/cms/cms.js`,
+      },
+    },
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-filesystem',
