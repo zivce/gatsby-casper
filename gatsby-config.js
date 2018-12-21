@@ -11,9 +11,16 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-netlify-cms-paths`,
+      options: {
+        cmsConfig: `src/config.yml`
+      }
+    },
+    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
-        modulePath: `${__dirname}/admin/cms/cms.js`,
+        enableIdentityWidget: true,
+        modulePath: `${__dirname}/admin/cms.js`,
       },
     },
     'gatsby-plugin-sharp',
