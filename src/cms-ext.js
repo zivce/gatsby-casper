@@ -22,6 +22,9 @@ init({
                     widget: "hidden",
                     default: "post"
                 },
+                { label: "Date", name: "date", widget: "date" },
+                { label: "Author", name: "author", widget: "string" },
+                { label: "Tags", name: "tags", default: ["news"], widget: "list" },
                 { label: "Title", name: "title", widget: "string" },
                 { label: "Featured Image", name: "thumbnail", widget: "image" },
                 { label: "Body", name: "body", widget: "markdown" }]
