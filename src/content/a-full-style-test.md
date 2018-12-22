@@ -1,18 +1,15 @@
 ---
 layout: post
 title: A Full and Comprehensive Style Test
-image: img/testimg-cover.jpg
-author: Ghost
-date: 2018-09-30T07:03:47.149Z
-tags: 
-  - Tests
+thumbnail: /src/content/img/blog-cover.jpg
 ---
-
 Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
----
+- - -
 
 # Heading 1
+
+# TEST
 
 ## Heading 2
 
@@ -24,13 +21,13 @@ Below is just about everything you’ll need to style in the theme. Check the so
 
 ###### Heading 6
 
----
+- - -
 
-Lorem ipsum dolor sit amet, [test link]() adipiscing elit. **This is strong.** Nullam dignissim convallis est. Quisque aliquam. _This is emphasized._ Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That’s a citation). <span style="text-decoration:underline;">Underline</span>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+Lorem ipsum dolor sit amet, [test link](<>) adipiscing elit. **This is strong.** Nullam dignissim convallis est. Quisque aliquam. _This is emphasized._ Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That’s a citation). <span style="text-decoration:underline;">Underline</span>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
 
 HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type `COPY filename`. <del>Dinner’s at 5:00.</del> <span style="text-decoration:underline;">Let’s make that 7</span>. This <del>text</del> has been struck.
 
----
+- - -
 
 ## Media
 
@@ -50,7 +47,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 Labore et dolore.
 
----
+- - -
 
 ## List Types
 
@@ -72,23 +69,23 @@ Definition
 
 ### Unordered List
 
-- List Item 1
-- List Item 2
-  - Nested list item A
-  - Nested list item B
-- List Item 3
+* List Item 1
+* List Item 2
+  * Nested list item A
+  * Nested list item B
+* List Item 3
 
----
+- - -
 
 ## Table
 
 | Table Header 1 | Table Header 2 | Table Header 3 |
-| :------------: | :------------: | :------------: |
+| -------------- | -------------- | -------------- |
 | Division 1     | Division 2     | Division 3     |
 | Division 1     | Division 2     | Division 3     |
 | Division 1     | Division 2     | Division 3     |
 
----
+- - -
 
 ## Preformatted Text
 
@@ -108,7 +105,7 @@ highlight a block of code. Because we have more specific typographic needs for c
 }
 ```
 
----
+- - -
 
 ## Blockquotes
 
@@ -118,7 +115,7 @@ Let’s keep it simple. Italics are good to help set it off from the body text. 
 
 And here’s a bit of trailing text.
 
----
+- - -
 
 ## Text-level semantics
 
@@ -146,7 +143,7 @@ The <sub>sub element</sub> example <br>
 The <sup>sup element</sup> example <br>
 The <var>var element</var> example <br>
 The <u>u element</u> example</p>
-* * *
+\* \* *
 
 ## Embeds
 
@@ -185,5 +182,5 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 Isn't it beautiful.
 
-*[HTML]: Hyper Text Markup Language
-*[CSS]: Cascading Style Sheets
+_\[HTML]: Hyper Text Markup Language
+_\[CSS]: Cascading Style Sheets
