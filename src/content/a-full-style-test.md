@@ -1,10 +1,11 @@
 ---
 layout: post
+date: '1863-11-19T10:00:00.000Z'
+author: Ghost
+tags:
+  - education
 title: A Full and Comprehensive Style Test
 image: img/blog-cover.jpg
-author: Ghost
-date: "1863-11-19T10:00:00.000Z"
-tags: []
 ---
 Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
@@ -12,7 +13,7 @@ Below is just about everything you’ll need to style in the theme. Check the so
 
 # Heading 1
 
-# TEST
+# TESTING FORMATTING
 
 ## Heading 2
 
@@ -146,7 +147,7 @@ The <sub>sub element</sub> example <br>
 The <sup>sup element</sup> example <br>
 The <var>var element</var> example <br>
 The <u>u element</u> example</p>
-\* \* *
+\\* \\* *
 
 ## Embeds
 
