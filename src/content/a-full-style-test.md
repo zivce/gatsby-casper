@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Full and Comprehensive Style Test
-image: /src/content/img/blog-cover.jpg
+image: /img/blog-cover.jpg
 author: Ghost
 date: "1863-11-19T10:00:00.000Z"
 tags: []
