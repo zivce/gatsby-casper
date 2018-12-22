@@ -1,7 +1,10 @@
 ---
 layout: post
 title: A Full and Comprehensive Style Test
-thumbnail: /src/content/img/blog-cover.jpg
+image: /src/content/img/blog-cover.jpg
+author: Ghost
+date: "1863-11-19T10:00:00.000Z"
+tags: []
 ---
 Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
