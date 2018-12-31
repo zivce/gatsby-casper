@@ -26,7 +26,7 @@ init({
                 { label: "Author", name: "author", widget: "string" },
                 { label: "Tags", name: "tags", default: ["news"], widget: "list" },
                 { label: "Title", name: "title", widget: "string" },
-                { label: "Featured Image", name: "image", widget: "image" },
+                { label: "Featured Image", name: "image", widget: "string" },
                 { label: "Body", name: "body", widget: "markdown" }]
         }]
     }
