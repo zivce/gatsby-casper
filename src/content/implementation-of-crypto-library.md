@@ -5,7 +5,7 @@ author: Milos Zivkovic
 tags:
   - Development
 title: Implementation of Crypto Library
-image: /src/content/img/computer.jpg
+image: /static/mp-550x550-matte-ffffff-t.3u3.jpg
 ---
 My crypto library consists of few algorithms, double transposition, knapsack, xtea with ofb mode, and md5 hash.
 
