@@ -7,8 +7,6 @@ tags:
 title: Implementation of Crypto Library
 image: /src/content/img/computer.jpg
 ---
-# Crypto Library
-
 My crypto library consists of few algorithms, double transposition, knapsack, xtea with ofb mode, and md5 hash.
 
 kadkdaks
