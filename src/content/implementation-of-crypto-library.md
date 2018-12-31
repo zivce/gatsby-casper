@@ -7,7 +7,7 @@ tags:
   - crypto
   - knapsack
 title: Implementation of Crypto Library
-image: /src/content/img/photo-1477244075012-5cc28286e465.jpg
+image: /src/content/img/computer.jpg
 ---
 # Crypto Library
 
