@@ -1,5 +1,6 @@
 import CMS, { init } from "netlify-cms"
-import * as PageTemplate from "./templates/post.tsx";
+import { default as PageTemplate } from "./templates/post";
+
 init({
     config: {
         media_folder: "src/content/img",
@@ -32,4 +33,4 @@ init({
     }
 })
 
-// CMS.registerPreviewTemplate("posts", PageTemplate);
+CMS.registerPreviewTemplate("posts", PageTemplate);
