@@ -33,4 +33,4 @@ init({
     }
 })
 
-CMS.registerPreviewTemplate("posts", PageTemplate);
+// CMS.registerPreviewTemplate("posts", PageTemplate);
