@@ -2,7 +2,7 @@ import CMS, { init } from "netlify-cms"
 
 init({
     config: {
-        media_folder: "img",
+        media_folder: "src/content/img",
         media_library: {
             name: "my_media_lib"
         },
