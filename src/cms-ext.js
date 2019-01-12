@@ -32,5 +32,3 @@ init({
         }]
     }
 })
-
-// CMS.registerPreviewTemplate("posts", PageTemplate);
