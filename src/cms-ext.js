@@ -1,5 +1,4 @@
 import CMS, { init } from "netlify-cms"
-import { default as PageTemplate } from "./templates/post";
 
 init({
     config: {
